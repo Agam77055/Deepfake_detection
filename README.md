@@ -24,7 +24,7 @@ Initially, the raw dataset was divided into two folders (`fake/` and `real/`), b
 - This ensures that the dataset used for training is of high quality.
 
 ## Model Training and Inference
-The `project.ipynb` notebook contains the complete pipeline:
+The `Deepfake_detection.ipynb` notebook contains the complete pipeline:
 1. **Data Loading & Splitting:**  
    - The notebook scans the cleaned dataset, assigns labels (0 for fake, 1 for real), and splits the data into training, validation, and test sets (60/20/20 split).
    
@@ -52,7 +52,7 @@ The `project.ipynb` notebook contains the complete pipeline:
    - This script will organize images into `real_images` and `fake_images` folders based on prediction outputs.
 
 2. **Model Training and Inference:**
-   - Open the `project.ipynb` Jupyter Notebook.
+   - Open the `Deepfake_detection.ipynb` Jupyter Notebook.
    - Follow the instructions in the notebook, executing the cells sequentially.
    - The notebook covers the entire process from data preprocessing and model training to generating a JSON file of predictions.
 
