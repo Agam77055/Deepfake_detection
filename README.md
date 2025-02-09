@@ -59,10 +59,11 @@ The `Deepfake_detection.ipynb` notebook contains the complete pipeline:
 ## Dependencies
 - Python 3.x
 - Jupyter Notebook or JupyterLab
+- Numpy
 - TensorFlow 2.x
 - scikit-learn
 - Other built-in libraries: `os`, `json`, `shutil`
 
 You can install the necessary Python packages using:
 ```bash
-pip install tensorflow scikit-learn
+pip install nummpy tensorflow scikit-learn
