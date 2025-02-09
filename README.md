@@ -4,7 +4,7 @@
 This project implements a robust image classification system to distinguish between "fake" and "real" images using transfer learning with EfficientNetB0. The entire workflow—from data preprocessing and cleaning to model training and inference—is implemented within a Jupyter Notebook. Additionally, a separate Python script (`image_separate.py`) is provided to clean the dataset by separating images based on their predicted labels.
 
 ## Repository Structure
-- **`project.ipynb`**  
+- **`Deepfake_detection.ipynb`**  
   The main Jupyter Notebook containing all code for:
   - Data loading and preprocessing.
   - Model building and training using EfficientNetB0 with data augmentation.
